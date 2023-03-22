@@ -7,29 +7,849 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reference Website</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@300;400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <h1>Reference Website</h1>
+  <header>
+    <h1 class="page-title">Reference Website</h1>
+    <nav>
+      <ul class="header-list">
+        <li><a href="#html-elements">HTML Elements/Tags</a></li>
+        <li><a href="#css-properties">CSS Properties</a></li>
+        <li><a href="#flexbox">Flexbox</a></li>
+        <li><a href="#css-grid">CSS Grid</a></li>
+        <li><a href="#media-queries">Media Queries</a></li>
+        <li><a href="#css-transitions">CSS Transitions</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <nav>
-    <ul>
-      <li><a href="#html-elements">HTML elements/tags</a></li>
-      li><a href="#">HTML elements/tags</a></li>
-      li><a href="#">HTML elements/tags</a></li>
-    </ul>
-  </nav>
+
 
   <main>
-    <section id="html-elements">
-      <h2>HTML Elements</h2>
-      <h3>Headings</h3>
-      <div>
-        <h1>Heading 1 - Most important peice of content on the page</h1>
-        <h2>Heading 2 - </h2>
-        <h3>Heading 3 - </h3>
+
+    <!-- HTML REGIONS -->
+
+    <section id="html-regions">
+      <h2 class="section-title">HTML Regions</h2>
+
+      <div class="reference-grid">
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;header&#62;</h3>
+          </div>
+          <p class=>
+            This region is at the top of a webpage and contains site-wide information. This typically includes a
+            logo, search function, and navigation options.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;nav&#62;</h3>
+          </div>
+          <p class=> The <span class="code-block">nav</span> or navigation region contains a menu used to navigate
+            through a website's content.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;body&#62;</h3>
+          </div>
+          <p class=> The <span class="code-block">body</span> region contains all of the content on a webpage. </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;main&#62;</h3>
+          </div>
+          <p class=> The <span class="code-block">main</span> region is a contextual section that contains all of a
+            webpage's main content. </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3> &#60;footer&#62;</h3>
+          </div>
+          <p class="">
+            Similar to the <span class="code-block">header</span>, the <span class="code-block">footer</span> region
+            also cotains site-wide information. This can include
+            copyright information, privacy statements, disclaimers, and occasionally secondary navigation.
+          </p>
+        </div>
       </div>
     </section>
+
+    <!-- HTML ELEMENTS -->
+
+    <section id="html-elements">
+      <h2 class="section-title">HTML Elements</h2>
+
+      <div class="reference-item">
+        <h3 class="content-headings">Headings</h3>
+
+        <div class="reference-grid">
+          <div class="reference-item">
+            <div class="code-title">
+              <h3>&#60;h1&#62;</h3>
+            </div>
+            <h1> Most important peice of content on the page</h1>
+          </div>
+          <div class="reference-item">
+            <div class="code-title">
+              <h3>&#60;h2&#62;</h3>
+            </div>
+            <h2> First Subheading</h2>
+          </div>
+          <div class="reference-item">
+            <div class="code-title">
+              <h3>&#60;h3&#62;</h3>
+            </div>
+            <h3> Second Subheading</h3>
+          </div>
+          <div class="reference-item">
+            <div class="code-title">
+              <h3>&#60;h4&#62;</h3>
+            </div>
+            <h4> Third Subheading</h4>
+          </div>
+          <div class="reference-item">
+            <div class="code-title">
+              <h3>&#60;h5&#62;</h3>
+            </div>
+            <h5> Fourth Subheading</h5>
+          </div>
+          <div class="reference-item">
+            <div class="code-title">
+              <h3>&#60;h6&#62;</h3>
+            </div>
+            <h6> Fifth Subheading</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="reference-grid">
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;section&#62;</h3>
+          </div>
+          <p>The <span class="code-block">section</span> tag refers to a group of content in a series of related groups
+            of content.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;div&#62;</h3>
+          </div>
+          <p> The <span class="code-block">div</span> tag is used as a container that divides an HTML document into
+            sections.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;span&#62;</h3>
+          </div>
+          <p> The <span class="code-block">span</span> tag is an inline container for text, <span
+              class="span-example">typically used for styling
+              purposes.</span></p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;p&#62;</h3>
+          </div>
+          <p>The <span class="code-block">p</span> tag is used to define a generic paragraph of text.</p>
+        </div>
+      </div>
+
+      <div class="reference-item">
+
+        <h3 class="content-headings">Lists</h3>
+
+        <div class="reference-grid">
+          <div class="reference-item">
+            <div class="code-title">
+              <h4>&#60;ul&#62;</h4>
+            </div>
+            <p>An unordered list, where the order of items within does not matter. Contains <span
+                class="code-block">li</span> (list items) as its children.
+            </p>
+          </div>
+
+          <div class="reference-item">
+            <div class="code-title">
+              <h4>&#60;ol&#62;</h4>
+            </div>
+            <p>An ordered list, where the order of the items is important. Contains <span class="code-block">li</span>
+              (list items) as its children. </p>
+          </div>
+
+          <div class="reference-item">
+            <div class="code-title">
+              <h4>&#60;dl&#62;</h4>
+            </div>
+            <p>
+              A description list, which groups title and definitions. Contains <span class="code-block">dt</span>
+              (description title) and <span class="code-block">dd</span> (description
+              definitions) as its children.
+            </p>
+            <!-- <div class="example-block">
+            <dl>
+              <dt>title</dt>
+              <dd>definition</dd>
+              <dt>title</dt>
+              <dd>definition</dd>
+            </dl>
+          </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="reference-grid">
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;a&#62;</h3>
+          </div>
+          <p> The <span class="code-block">anchor</span> tag is used to create hyperlinks. The link can point to other
+            webpages, locations on the same
+            webpage, or any other URL.</p>
+
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;img&#62;</h3>
+          </div>
+          <p>The <span class="code-block">img</span> tag embeds images in HTML documents. Used along with the <span
+              class="code-block">src</span> attribute, containing the image URL. </p>
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <img src="images/frog.png" />
+          </div>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;figure&#62;</h3>
+          </div>
+          <p>The <span class="code-block">figure</span> tag is used as a container to group media content (images,
+            video...) with a caption or
+            description. It is used alongside the <span class="code-block">img</span> and figcaption tags, which provide
+            an image and caption /
+            description. </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;q&#62;</h3>
+          </div>
+          <p> The <span class="code-block">q</span> tag is used to define small quotations within other content.</p>
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <p>
+              In the popular anime Dragon Ball Z English Dub by Ocean Productions, there is a funny line where Vegeta
+              says <q>It's over 9000!</q> in a dumb voice.
+            </p>
+          </div>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;blockquote&#62;</h3>
+          </div>
+          <p>The <span class="code-block">blockquote</span> tag is used to define a large stand-alone quotation. </p>
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <p>In the popular anime Dragon Ball Z English Dub by Ocean Productions, there is a funny line where Vegeta
+              says</p>
+            <blockquote>It's over 9000!</blockquote>
+            <p>in a dumb voice.
+            </p>
+          </div>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;cite&#62;</h3>
+          </div>
+          <p> The <span class="code-block">cite</span> tag defines a citation from another source, typically used for
+            the title of a creative work.</p>
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <img src="images/cauchy.png" />
+            <p> <cite>Cauchy's integral formula </cite> </p>
+          </div>
+        </div>
+
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;em&#62;</h3>
+          </div>
+          <p> The <span class="code-block">em</span> tag defines a string of emphasized text, which should be perceived
+            as slightly more important.
+          </p>
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <p>
+              In the popular anime Dragon Ball Z English Dub by Ocean Productions, there is a funny line where Vegeta
+              says <em>It's over 9000!</em> in a dumb voice.
+            </p>
+          </div>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;strong&#62;</h3>
+          </div>
+          <p>The <span class="code-block">strong</span> tag defines a string of heavily emphasized text, which should be
+            perceived as much more
+            important.
+          </p>
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <p>
+              In the popular anime Dragon Ball Z English Dub by Ocean Productions, there is a funny line where Vegeta
+              says <strong>It's over 9000!</strong>
+              in a dumb voice.
+            </p>
+          </div>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;b&#62;</h3>
+          </div>
+          <p>The <span class="code-block">b</span> tag defines a keyword, such as a product name. </p>
+
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <p>
+              In the popular anime Dragon Ball Z English Dub by Ocean Productions, there is a funny line where Vegeta
+              says <b>It's over 9000!</b>
+              in a dumb voice.
+            </p>
+          </div>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;i&#62;</h3>
+          </div>
+          <p> The <span class="code-block">i</span> tag italicizes text, typically used to define technical terms,
+            sarcasm, or another language.</p>
+
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <p>
+              In the popular anime Dragon Ball Z English Dub by Ocean Productions, there is a funny line where Vegeta
+              says <i>It's over 9000!</i>
+              in a dumb voice.
+            </p>
+          </div>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>&#60;small&#62;</h3>
+          </div>
+          <p>The <span class="code-block">small</span> tag is used to to represent side comments and fine print. </p>
+
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <p>
+              In the popular anime Dragon Ball Z English Dub by Ocean Productions, there is a funny line where Vegeta
+              says <small>It's over 9000!</small>
+              in a dumb voice.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CSS PROPERTIES -->
+
+    <section id="css-properties">
+      <h2 class="section-title">CSS Properties</h2>
+      <div class="reference-grid">
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>margin</h3>
+          </div>
+          <p>Sets the margin, or the outside spacing, of an element. Can be specified to specific areas around the
+            element
+            using <span class="code-block">margin-top</span>, <span class="code-block">margin-bottom</span>, <span
+              class="code-block">margin-left</span>, and <span class="code-block">margin-right</span>.</p>
+
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <div class="example-margin">
+              <p class="margin-all">margin: 5px;</p>
+            </div>
+            <div class="example-margin">
+              <p class="margin-all-mix">margin: 5px 20px;</p>
+            </div>
+            <div class="example-margin">
+              <p class="margin-left">margin-left: 10px;</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>padding</h3>
+          </div>
+          <p>Sets the padding, or the spacing between an element's content and its border. Can be specified to specific
+            areas around the element using <span class="code-block">padding-top</span>, <span
+              class="">padding-bottom</span>, <span class="code-block">padding-left</span>, and <span
+              class="code-block">padding-right</span>.</p>
+
+
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <div class="example-margin">
+              <div class="margin-all">
+                <div class="example-padding padding-all">
+                  <p>margin: 5px;</p>
+                  <p>padding: 5px;</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="example-margin">
+              <div class="margin-all">
+                <div class="example-padding padding-mix">
+                  <p>margin: 5px;</p>
+                  <p>padding: 5px 20px;</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="example-margin">
+              <div class="margin-all">
+                <div class="example-padding padding-right">
+                  <p>margin: 5px;</p>
+                  <p>padding-right: 20px;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>width</h3>
+          </div>
+          <p>Sets the precice width of an element.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>height</h3>
+          </div>
+          <p>Sets the precise height of an element.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>max-width</h3>
+          </div>
+          <p>Sets the maximum width of an element.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>background-color</h3>
+          </div>
+          <p>Sets the color of an element's background.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>background</h3>
+          </div>
+          <!-- (shorthand for images or demo using all background image properties) -->
+          <p>Sets an element's background. This can be a color as well as an image.</p>
+
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+            <p>Color background:</p>
+            <div class="example-bg"></div>
+            <p>Repeating, contained, centered image:</p>
+            <div class="example-bg-image-repeat-contain"></div>
+            <p>Non-repeating, covered, bottom image:</p>
+            <div class="example-bg-image-cover"></div>
+          </div>
+
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>border</h3>
+          </div>
+          <p>Sets a border around an element. Can be specified with weight as well as type; i.e. <span
+              class="code-block">solid</span>, <span class="code-block">double</span>,
+            <span class="code-block">dashed</span>.
+            Can also be set to specific areas of an element by using <span class="code-block">border-bottom</span>,
+            <span class="code-block">border-left</span>, <span class="code-block">border-right</span>, and <span
+              class="code-block">border-top</span>.
+          </p>
+
+          <div class="example-block">
+            <h3 class="example-title">Example</h3>
+
+            <p class="example-border-all"> border: solid 5px black; </p>
+            <div class="example-border-mix">
+              <p>border-left: dashed 5px blue;</p>
+              <p>border-bottom: double 2px red;</p>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>color</h3>
+          </div>
+          <p>Sets the color of the text within an element.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>font-family</h3>
+          </div>
+          <p>Sets the font family for the text within an element.</p>
+
+
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>font-size</h3>
+          </div>
+          <p>Sets the font size for the text within an element.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>font-weight</h3>
+          </div>
+          <p>Sets the font weight for the text within an element.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>line-height</h3>
+          </div>
+          <p>Sets the vertical spacing between the lines of text within an element.</p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>text-align</h3>
+          </div>
+          <p>Sets the alignment for the text within an element; i.e. <span class="code-block">left</span>, <span
+              class="code-block">center</span>, <span class="code-block">right</span>, and <span
+              class="code-block">justify</span>.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>text-decoration</h3>
+          </div>
+          <p>Sets the style and color of underlined text within an element; i.e. <span class="code-block">none</span>,
+            <span class="code-block">overline</span>,
+            <span class="code-block">underline</span>, <span class="code-block">line-through</span>,
+            etc.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>text-transform</h3>
+          </div>
+          <p>Sets the capitalization and casing for text within an element; i.e. <span class="code-block">none</span>,
+            <span class="code-block">uppercase</span>,
+            <span class="code-block">lowercase</span> and
+            <span class="code-block">capitalized</span>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="flexbox">
+      <h2 class="section-title">Flexbox</h2>
+      <p>Flexbox allows you to arrange elements in a flexible and dynamic way by aligning and distributing items
+        within a container, regardless of their size, and adjust their
+        spacing, direction, and order. </p>
+      <p>To create a Flexbox layout, you need to define a container element and specify its display property as
+        <span class="code-block">flex</span> or <span class="code-block">inline-flex</span>. Once the container becomes
+        a flex container, its child elements become flex items,
+        which can be manipulated using a set of properties.
+      </p>
+
+      <div class="reference-grid">
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>display</h3>
+          </div>
+          <p>
+            This property defines the display type of the flex container.
+            It can be set to either <span class="code-block">flex</span> or
+            <span class="code-block">inline-flex</span>.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>flex-direction</h3>
+          </div>
+          <p>
+            This property sets the direction of the flex items
+            within the
+            container. It can be set to <span class="code-block">row</span>, <span
+              class="code-block">row-reverse</span>, <span class="code-block">column</span>, or <span
+              class="code-block">column-reverse</span>.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>flex-wrap</h3>
+          </div>
+          <p>
+            This property controls whether the flex items should wrap to
+            multiple lines or not when they
+            exceed the width or height of the flex container. It can be set to <span class="code-block">nowrap</span>
+            (default), <span class="code-block">wrap</span>, or
+            <span class="code-block">wrap-reverse</span>.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>justify-content</h3>
+          </div>
+          <p>
+            This property aligns the flex items along the main
+            axis. It can be set to <span class="code-block">flex-start</span>,
+            <span class="code-block">flex-end</span>, <span class="code-block">center</span>, <span
+              class="code-block">space-between</span>, <span class="code-block">space-around</span>, or <span
+              class="code-block">space-evenly</span>.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>align-items</h3>
+          </div>
+          <p>
+            This property aligns the flex items along the cross axis.
+            It can be set to <span class="code-block">stretch</span>,
+            <span class="code-block">flex-start</span>, <span class="code-block">flex-end</span>, <span
+              class="code-block">center</span>, or <span class="code-block">baseline</span>.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>align-content</h3>
+          </div>
+          <p>
+            This property aligns the lines of flex items within the
+            flex container when there is
+            extra space on the cross axis. It only applies when the flex items are on multiple lines. It can be set to
+            <span class="code-block">flex-start</span>, <span class="code-block">flex-end</span>, <span
+              class="code-block">center</span>, <span class="code-block">space-between</span>, <span
+              class="code-block">space-around</span>, or <span class="code-block">stretch</span>.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>align-self</h3>
+          </div>
+          <p>
+            This property aligns a single flex item along the cross axis,
+            overriding the align-items
+            value for that item. It can be set to <span class="code-block">auto</span>, <span
+              class="code-block">flex-start</span>, <span class="code-block">flex-end</span>,
+            <span class="code-block">center</span>, <span class="code-block">baseline</span>, or <span
+              class="code-block">stretch</span>.
+          </p>
+        </div>
+      </div>
+
+      <div class="reference-grid">
+        <div class="example-flex-container">
+          <h3>Example 1</h3>
+          <p>
+            Column flexbox, with flex-end alignment.
+          </p>
+          <div class="example-flex nowrap">
+            <div>one</div>
+            <div>two</div>
+            <div>three</div>
+            <div>four</div>
+            <div>five</div>
+            <div>six</div>
+            <div>seven</div>
+            <div>eight</div>
+          </div>
+        </div>
+
+        <div class="example-flex-container">
+          <h3>Example 2</h3>
+          <p>
+            Reversed row wrapping flexbox, with space between justification.
+          </p>
+          <div class="example-flex wrap">
+            <div>one</div>
+            <div>two</div>
+            <div>three</div>
+            <div>four</div>
+            <div>five</div>
+            <div>six</div>
+            <div>seven</div>
+            <div>eight</div>
+            <div>nine</div>
+            <div>ten</div>
+            <div>eleven</div>
+            <div>twelve</div>
+            <div>thirteen</div>
+            <div>fourteen</div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section id="css-grid">
+      <h2 class="section-title">CSS Grid</h2>
+      <p>CSS Grid allows you to arrange elements within the rows and columns of a grid, by specifying the size and
+        position of each element. </p>
+      <p>To create a grid, you need to define a container element as a grid, you can then create rows and columns, and
+        specify the size and position of grid cells.</p>
+
+
+      <div class="reference-grid">
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>display: grid</h3>
+          </div>
+          <p>
+            Defines the container element as a grid.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>grid-template-rows</h3>
+          </div>
+          <p>
+            Defines the size of the rows in the grid.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>grid-template-columns</h3>
+          </div>
+          <p>
+            Defines the size of the columns in the grid.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>grid-template-areas</h3>
+          </div>
+          <p>
+            Defines a grid template using named grid areas.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>grid-gap</h3>
+          </div>
+          <p>
+            Defines the size of the gap between rows and columns in the grid.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>justify-items</h3>
+          </div>
+          <p>
+            Defines how the grid items align along the horizontal axis.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>align-items</h3>
+          </div>
+          <p>
+            Defines how the grid items align along the vertical axis.
+          </p>
+        </div>
+
+        <div class="reference-item">
+          <div class="code-title">
+            <h3>justify-content</h3>
+          </div>
+          <p>
+            Defines how the grid items align within the grid.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="media-queries">
+      <h2 class="section-title">Media Queries</h2>
+      <p>
+        Media queries allow you to apply different styles to a webpage based on the screen
+        size being used. This means that the same webpage can be optimized for a variety of devices,
+        such as desktops, tablets, and smartphones, ensuring that the user experience is optimized for each device.
+      </p>
+
+      </div>
+      <div class="media-queries-demo">
+        <i>🔥 Resize this page to see media queries in action</i>
+        <p class="media-queries-demo-big"> Screen is <b>wider</b> than 1000px. Our grid is 4 columns wide! </p>
+        <p class="media-queries-demo-medium"> Screen is <b>smaller</b> than 1000px and wider than 500px. Our grid is 2
+          columns wide! </p>
+        <p class="media-queries-demo-small"> Screen is <b>smaller</b> than 500px. Our grid is 1 column wide! </p>
+        <div class="media-queries-demo-grid">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+        </div>
+      </div>
+    </section>
+
+
+
   </main>
 </body>
 
